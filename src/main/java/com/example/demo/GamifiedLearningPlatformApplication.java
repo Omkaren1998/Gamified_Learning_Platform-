@@ -10,7 +10,7 @@ import com.example.config.SecurityConfig;
 @SpringBootApplication
 @EnableMongoRepositories
 @Import(SecurityConfig.class)
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:5174")
 public class GamifiedLearningPlatformApplication {
 
 	public static void main(String[] args) {
