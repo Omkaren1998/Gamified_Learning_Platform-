@@ -17,7 +17,7 @@ import com.example.demo.model.Login;
 import com.example.demo.model.LoginMessage;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:5174/")
 public class RegistrationController  {
 
 	@Autowired
